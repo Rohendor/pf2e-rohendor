@@ -23,7 +23,7 @@
             "per": "day"
         },
         "level": {
-            "value": 2
+            "value": null
         },
         "prerequisites": {
             "value": [

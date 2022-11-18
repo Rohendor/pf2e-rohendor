@@ -19,7 +19,7 @@
             "value": "skill"
         },
         "level": {
-            "value": 6
+            "value": null
         },
         "prerequisites": {
             "value": [

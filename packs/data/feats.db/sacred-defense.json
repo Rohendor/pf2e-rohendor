@@ -23,7 +23,7 @@
             "per": "PT1H"
         },
         "level": {
-            "value": 7
+            "value": null
         },
         "prerequisites": {
             "value": [

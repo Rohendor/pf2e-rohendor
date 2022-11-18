@@ -4,6 +4,7 @@ import json
 
 path = "/home/rohendor/.local/share/FoundryVTT/ProjectSandro/pf2e-rohendor/packs/data/feats.db/"
 filepath = path
+count = 0
 
 for (root, dirs, file) in os.walk(path):
         for f in file:
@@ -22,3 +23,5 @@ for (root, dirs, file) in os.walk(path):
                         jsonFile.write(json.dumps(data, indent=4))
                         jsonFile.close()
                         print ("skill feat aggiornata correttamente" + f)
+                        count=count+1 
+print ("Sono stati cambiati " + str(count) +" files")

@@ -1,7 +1,7 @@
 {
-    "_id": "agCszSx92SOQAbdj",
+    "_id": "kMwg3Dv8J2dIVAHD",
     "img": "systems/pf2e/icons/features/feats/feats.webp",
-    "name": "Fake it till you make it",
+    "name": "Ancestral Crafting",
     "system": {
         "actionCategory": {
             "value": ""
@@ -13,7 +13,7 @@
             "value": null
         },
         "description": {
-            "value": "<p>Quando dovresti effettuare una prova di skill relativa ad una skill derivante da una caratteristica mentale (basata su Intelletto, Carisma o Saggezza) puoi effettuare una prova di Peformance con gli stessi effetti di successo e fallimento della prova originale </p>"
+            "value": "<p>Quando Crafti oggetti legati ad una particolare cultura o che segue lo stile di una particolare cultura ottieni uno sconto del 25% sul costo dell'oggetto e l'oggetto guadagna il tratto appropriato relativo all'ancestry con cui è stato creato </p>"
         },
         "featType": {
             "value": "skill"
@@ -24,7 +24,10 @@
         "prerequisites": {
             "value": [
                 {
-                    "value": "master in Performance"
+                    "value": "master in Crafting"
+                },
+                {
+                    "value":"expert in Lore (Specific Ancestry)"
                 }
             ]
         },
@@ -34,7 +37,7 @@
         },
         "traits": {
             "custom": "",
-            "rarity": "common",
+            "rarity": "uncommon",
             "value": [
                 "general",
                 "skill"

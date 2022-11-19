@@ -1,5 +1,5 @@
 {
-    "_id": "d8yggbcJsKKyHip7",
+    "_id": "eWlVamE6BfAg3N9D",
     "img": "systems/pf2e/icons/features/feats/feats.webp",
     "name": "Consume Spell",
     "system": {
@@ -13,30 +13,34 @@
             "value": null
         },
         "description": {
-            "value": "<p>When you successfully @UUID[Compendium.pf2e.feats-srd.Counterspell (Spontaneous)]{Counterspell} a spell of the tradition that matches your bloodline, you consume it, replenishing yourself with its energy.</p>\n<p>When you do, you are nourished as if you had eaten a meal and regain Hit Points equal to twice the level of the counteracted spell.</p>"
+            "value": "<p>When you successfully Counterspell a spell of the tradition that matches your bloodline, you consume it, replenishing yourself with its energy. When you do, you are nourished as if you had eaten a meal and regain Hit Points equal to twice the level of the counteracted spell. </p>"
         },
         "featType": {
-            "value": "class"
+            "value": "skill"
         },
         "level": {
-            "value": 14
+            "value": null
         },
         "prerequisites": {
             "value": [
                 {
-                    "value": "Counterspell"
+                    "value": "legendary in arcana"
+                },
+                {
+                    "value":"Counterspell"
                 }
             ]
         },
         "rules": [],
         "source": {
-            "value": "Pathfinder Advanced Player's Guide"
+            "value": "Ombraluna"
         },
         "traits": {
             "custom": "",
-            "rarity": "common",
+            "rarity": "Uncommon",
             "value": [
-                "sorcerer"
+                "general",
+                "skill"
             ]
         }
     },

@@ -1,7 +1,7 @@
 {
-    "_id": "agCszSx92SOQAbdj",
+    "_id": "EKLGaC0q3E0furF4",
     "img": "systems/pf2e/icons/features/feats/feats.webp",
-    "name": "Fake it till you make it",
+    "name": "Face",
     "system": {
         "actionCategory": {
             "value": ""
@@ -13,7 +13,7 @@
             "value": null
         },
         "description": {
-            "value": "<p>Quando dovresti effettuare una prova di skill relativa ad una skill derivante da una caratteristica mentale (basata su Intelletto, Carisma o Saggezza) puoi effettuare una prova di Peformance con gli stessi effetti di successo e fallimento della prova originale </p>"
+            "value": "<p>Una volta al giorno, quando fallisci nel mentire ad una creatura (Critico o no) puoi considerare il fallimento come un successo</p>"
         },
         "featType": {
             "value": "skill"
@@ -24,7 +24,7 @@
         "prerequisites": {
             "value": [
                 {
-                    "value": "master in Performance"
+                    "value": "legendary in Deception"
                 }
             ]
         },

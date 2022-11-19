@@ -1,7 +1,7 @@
 {
-    "_id": "agCszSx92SOQAbdj",
+    "_id": "uKM18EMc8Unxe0UE",
     "img": "systems/pf2e/icons/features/feats/feats.webp",
-    "name": "Fake it till you make it",
+    "name": "Skill Increase",
     "system": {
         "actionCategory": {
             "value": ""
@@ -13,7 +13,7 @@
             "value": null
         },
         "description": {
-            "value": "<p>Quando dovresti effettuare una prova di skill relativa ad una skill derivante da una caratteristica mentale (basata su Intelletto, Carisma o Saggezza) puoi effettuare una prova di Peformance con gli stessi effetti di successo e fallimento della prova originale </p>"
+            "value": "<p>Scegli una Skill, questa aumenta  di Rank. Questo incremento non può portare una Skill oltre il rank della skill più alta che possiedi (Se la tua skill più alta è Master, non puoi portare una Skill da Master a Legendary) </p>"
         },
         "featType": {
             "value": "skill"
@@ -22,11 +22,7 @@
             "value": null
         },
         "prerequisites": {
-            "value": [
-                {
-                    "value": "master in Performance"
-                }
-            ]
+            "value": []
         },
         "rules": [],
         "source": {
@@ -36,8 +32,7 @@
             "custom": "",
             "rarity": "common",
             "value": [
-                "general",
-                "skill"
+                "general"
             ]
         }
     },

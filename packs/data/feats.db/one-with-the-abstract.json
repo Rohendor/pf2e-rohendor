@@ -1,7 +1,7 @@
 {
-    "_id": "agCszSx92SOQAbdj",
+    "_id": "O89kF536VVFtTEft",
     "img": "systems/pf2e/icons/features/feats/feats.webp",
-    "name": "Fake it till you make it",
+    "name": "One with the Abstract",
     "system": {
         "actionCategory": {
             "value": ""
@@ -13,7 +13,7 @@
             "value": null
         },
         "description": {
-            "value": "<p>Quando dovresti effettuare una prova di skill relativa ad una skill derivante da una caratteristica mentale (basata su Intelletto, Carisma o Saggezza) puoi effettuare una prova di Peformance con gli stessi effetti di successo e fallimento della prova originale </p>"
+            "value": "<p>Una volta al giorno puoi lanciare un incantesimo Augury il cui flat check è aumentato ma che può vedere indefinitamente lontano nel futuro, nel caso di Weal and Woe è preciso su cosa andrà bene o male e qualora vada molto bene, prevedere con precisione il futuro</p>"
         },
         "featType": {
             "value": "skill"
@@ -24,7 +24,7 @@
         "prerequisites": {
             "value": [
                 {
-                    "value": "master in Performance"
+                    "value": "legendary in Occultism"
                 }
             ]
         },
@@ -36,6 +36,10 @@
             "custom": "",
             "rarity": "common",
             "value": [
+                "concentrate",
+                "exploration",
+                "secret",
+                "rysharian",
                 "general",
                 "skill"
             ]

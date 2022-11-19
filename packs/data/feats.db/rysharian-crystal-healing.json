@@ -1,7 +1,7 @@
 {
-    "_id": "agCszSx92SOQAbdj",
+    "_id": "NzLuLcsaL4QAWC2X",
     "img": "systems/pf2e/icons/features/feats/feats.webp",
-    "name": "Fake it till you make it",
+    "name": "Rysharian Crystal Healing",
     "system": {
         "actionCategory": {
             "value": ""
@@ -13,7 +13,7 @@
             "value": null
         },
         "description": {
-            "value": "<p>Quando dovresti effettuare una prova di skill relativa ad una skill derivante da una caratteristica mentale (basata su Intelletto, Carisma o Saggezza) puoi effettuare una prova di Peformance con gli stessi effetti di successo e fallimento della prova originale </p>"
+            "value": "<p> Se consci la frequenza di risonanza e hai la possibilità di riprodurre tale frequenza con i tuoi cristalli o affini, puoi utilizzare anche l'azione Treat Wounds quando utilizzi Crystal Healing, Ottenere un fallimento critico in questo modo non infligge danno</p>"
         },
         "featType": {
             "value": "skill"
@@ -24,7 +24,10 @@
         "prerequisites": {
             "value": [
                 {
-                    "value": "master in Performance"
+                    "value": "expert in Occultism"
+                },
+                {
+                    "value":"Crystal Healing"
                 }
             ]
         },
@@ -34,10 +37,11 @@
         },
         "traits": {
             "custom": "",
-            "rarity": "common",
+            "rarity": "rare",
             "value": [
                 "general",
-                "skill"
+                "skill",
+                "rysharian"
             ]
         }
     },

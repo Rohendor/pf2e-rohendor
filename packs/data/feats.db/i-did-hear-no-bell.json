@@ -1,7 +1,7 @@
 {
-    "_id": "agCszSx92SOQAbdj",
+    "_id": "8F9cHdB1grLIa0yW",
     "img": "systems/pf2e/icons/features/feats/feats.webp",
-    "name": "Fake it till you make it",
+    "name": "I did hear no bell",
     "system": {
         "actionCategory": {
             "value": ""
@@ -13,7 +13,7 @@
             "value": null
         },
         "description": {
-            "value": "<p>Quando dovresti effettuare una prova di skill relativa ad una skill derivante da una caratteristica mentale (basata su Intelletto, Carisma o Saggezza) puoi effettuare una prova di Peformance con gli stessi effetti di successo e fallimento della prova originale </p>"
+            "value": "<p>Ogni volta che ottieni la condizione Wounded tira flat check da 15, se lo superi la tua condizione di wounded non aumenta o non la ricevi</p>"
         },
         "featType": {
             "value": "skill"
@@ -24,7 +24,7 @@
         "prerequisites": {
             "value": [
                 {
-                    "value": "master in Performance"
+                    "value": "expert in Survival"
                 }
             ]
         },

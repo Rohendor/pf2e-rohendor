@@ -1,5 +1,5 @@
 {
-    "_id": "IMPP5pa8AmvCby4W",
+    "_id": "g0ypG0YoiK7Q4Uk4",
     "img": "systems/pf2e/icons/features/feats/feats.webp",
     "name": "Clever Counterspell",
     "system": {
@@ -13,33 +13,34 @@
             "value": null
         },
         "description": {
-            "value": "<p>You creatively apply your prepared spells to @UUID[Compendium.pf2e.feats-srd.Counterspell (Prepared)]{Counterspell} a much wider variety of your opponents' magic. Instead of being able to counter a foe's spell with Counterspell only if you have that same spell prepared, you can use Counterspell as long as you have the spell the foe is casting in your spellbook.</p>\n<p>When you use Counterspell in this way, the prepared spell you expend must share a trait other than its tradition with the triggering spell.</p>\n<p>At the GM's discretion, you can instead use a spell that has an opposing trait or that otherwise logically would counter the triggering spell (such as using a cold or water spell to counter fireball or using remove fear to counter a fear spell).</p>\n<p>Regardless of what spell you expend, you take a -2 penalty to your counteract check, though the GM can waive this penalty if the expended spell is especially appropriate.</p>"
+            "value": "<p>You creatively apply your prepared spells to Counterspell a much wider variety of your opponents’ magic. Instead of being able to counter a foe’s spell with Counterspell only if you have that same spell prepared, you can use Counterspell as long as you have the spell the foe is casting in your spellbook</p>"
         },
         "featType": {
-            "value": "class"
+            "value": "skill"
         },
         "level": {
-            "value": 12
+            "value": null
         },
         "prerequisites": {
             "value": [
                 {
-                    "value": "Counterspell"
+                    "value": "expert in Arcana"
                 },
                 {
-                    "value": "Quick Recognition"
+                    "value": "Counterspell"
                 }
             ]
         },
         "rules": [],
         "source": {
-            "value": "Pathfinder Core Rulebook"
+            "value": "Ombraluna"
         },
         "traits": {
             "custom": "",
             "rarity": "common",
             "value": [
-                "wizard"
+                "general",
+                "skill"
             ]
         }
     },
